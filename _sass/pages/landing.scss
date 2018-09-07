@@ -29,11 +29,12 @@
   }
 
   .hero {
-    min-height: 532px;
+    height: 532px;
     padding-top: 4.3em;
     background-image: url("../images/marketplace/hero@3x.jpg");
     background-position: center;
     background-size: cover;
+    box-sizing: border-box;
     color: #FFFFFF;
   }
 
@@ -47,6 +48,12 @@
   .hero h2 {
     margin: 15px 0 65px;
     font-size: 20px;
+  }
+
+  @media screen and (min-width: 65em) {
+    .hero {
+      min-height: 532px;
+    }
   }
 
   .search {
@@ -96,6 +103,7 @@
   }
 
   .apps-list-container {
+    min-height: 300px;
     margin-top: 17px;
   }
 
