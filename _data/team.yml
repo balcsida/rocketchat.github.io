@@ -3,7 +3,7 @@
   github_username: engelgabriel
   twitter: gabriel_engel
   # email: email@email.com
-  department:
+  ? department
   username: gabriel.engel
   photo: yes
   country: Brazil
@@ -27,14 +27,14 @@
 - name: Diego Sampaio
   role: Lead Engineer
   github_username: sampaiodiego
-  department:
+  ? department
   username: diego.sampaio
   photo: yes
   country: Brazil
 
 - name: Patricia Ferreira
   role: Administrative Coordinator
-  github_username:
+  ? github_username
   department: Admin
   username: patricia.ferreira
   photo: yes
@@ -244,7 +244,7 @@
   department: Mobile
   username: filipe.alvarenga
   country: Brazil
-  
+
 - name: Thiago Sanchez
   role: Head of Product Design
   github_username: thiagosanchz
@@ -280,7 +280,15 @@
 - name: Lucia Guevgeozian
   role: Cloud Engineer
   github_username: LuluGO
-  department: Cloud 
+  department: Cloud
   username: lucia.guevgeozian
   photo: no
   country: Uruguay
+
+- name: Alan Sikora
+  role: Sofware Developer
+  github_username: alansikora
+  department: Technology
+  username: alan.sikora
+  photo: no
+  country: Brazil
